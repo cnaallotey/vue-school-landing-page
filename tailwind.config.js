@@ -41,6 +41,7 @@ module.exports = {
         "900": "#000029"
       },
       'white':colors.white,
+      'blue':colors.blue,
       'red' : colors.red,
       'gray':colors.gray,
       'button': "#667dff",
