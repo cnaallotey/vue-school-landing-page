@@ -1,6 +1,6 @@
 # vue-school-landing-page
 
-> A landing page for vue school black friday sale
+> A landing page for vue school black friday sale using nuxt.js / vue.js
 
 ## Build Setup
 
