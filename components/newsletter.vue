@@ -25,7 +25,7 @@
               required
             />
             <button
-              class="absolute top-1 right-1 inline-flex items-center space-x-2 py-3 px-8 rounded-full bg-cornflower-blue-900 font-medium font-sans text-cornflower-blue-500 uppercase tracking-[0.37px]"
+              class="absolute top-1 right-1 inline-flex items-center space-x-2 py-3 px-8 rounded-full bg-cornflower-blue-900 font-medium font-sans text-[#4bbbff] uppercase tracking-[0.37px]"
             >
               <span>keep me posted</span>
               <span

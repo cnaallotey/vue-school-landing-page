@@ -6,12 +6,19 @@
           Do you have any questions?
         </p>
         <div class="w-full mt-10">
-          <div class="border-b-2 border-gray-200 py-8">
+          <div
+            class="border-gray-200 py-8"
+            v-for="faq in faqs"
+            :key="faq.que"
+            :class="faqs.indexOf(faq) + 1 == faqs.length ? 'border-b-0' : 'border-b-2'"
+          >
             <button
               class="w-full py-3 inline-flex justify-between text-gray-700 text-xl font-medium leading-6 font-sans"
+              @click="showAns(faq)"
+              :disabled="!faq.ans ? true : false"
             >
-              <span>How can I cancel my subscription?</span
-              ><span
+              <span>{{ faq.que }}</span
+              ><span v-if="!faq.open"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5 text-blue-500"
@@ -24,7 +31,7 @@
                     clip-rule="evenodd"
                   /></svg
               ></span>
-              <span
+              <span v-else
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5 text-blue-500"
@@ -38,10 +45,11 @@
                   /></svg
               ></span>
             </button>
-            <p class="mt-8 text-sm font-normal leading-6 text-gray-700 font-sans">
-              You can cancel your subscription at any time through your Profile page. We
-              will not renew your subscription after you've canceled it, and you will have
-              full access to the courses in your grace period.
+            <p
+              class="mt-8 text-sm font-normal leading-6 text-gray-700 font-sans"
+              v-if="faq.open"
+            >
+              {{ faq.ans }}
             </p>
           </div>
         </div>
@@ -49,3 +57,23 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref } from "vue";
+
+const faqs = ref([
+  {
+    que: "How can I cancel my subscription?",
+    ans:
+      " You can cancel your subscription at any time through your Profile page. We will not renew your subscription after you've canceled it, and you will have full access to the courses in your grace period.",
+    open: false,
+  },
+  { que: "Can I download the lessons?", ans: "", open: false },
+  { que: "Renewal price", ans: "", open: false },
+]);
+
+const showAns = (faq) => {
+  const index = faqs.value.indexOf(faq);
+  faqs.value[index].open = !faqs.value[index].open;
+};
+</script>

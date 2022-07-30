@@ -7,9 +7,9 @@
           <ul
             class="inline-flex space-x-10 text-white font-sans font-medium uppercase text-xs tracking-tight"
           >
-            <li>contact us</li>
-            <li>Sign in</li>
-            <li>Sign up</li>
+            <li><a href="#">contact us</a></li>
+            <li><a href="#">sign in</a></li>
+            <li><a href="#">sign up</a></li>
           </ul>
         </div>
       </div>
@@ -25,6 +25,7 @@
       >
         40% Off. 48 Hours Only
       </h1>
+      <Countdown />
     </div>
     <div class="w-full bg-primary-600 py-12 flex items-center justify-center">
       <button
@@ -38,4 +39,5 @@
 
 <script setup>
 import Logo from "./Logo.vue";
+import Countdown from "./countdown.vue";
 </script>

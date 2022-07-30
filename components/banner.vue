@@ -2,9 +2,7 @@
   <div class="w-full">
     <div class="w-full py-[10px] bg-secondary-500 px-4">
       <div class="w-fit mx-auto text-primary-500">
-        <p class="font-medium font-sans text-lg bold text-center">
-          Extended: Ends any minute
-        </p>
+        <p class="font-normal font-sans text-lg text-center">Extended: Ends any minute</p>
       </div>
     </div>
   </div>

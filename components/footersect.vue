@@ -27,7 +27,7 @@ const menu = ref([
           </p>
           <ul class="space-y-5 mt-6 text-white text-sm font-sans font-normal leading-6">
             <li v-for="menuLink in menusection.menuLinks" :key="menuLink.name">
-              {{ menuLink.name }}
+              <a href="#"> {{ menuLink.name }}</a>
             </li>
           </ul>
         </div>

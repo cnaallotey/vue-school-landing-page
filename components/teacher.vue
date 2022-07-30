@@ -12,7 +12,7 @@ const props = defineProps({
       <div class="w-full h-[230px] rounded-lg overflow-hidden">
         <img
           :src="!props.img ? '/_nuxt/assets/images/chris.webp' : props.img"
-          class="w-full h-full object-cover object-center"
+          class="w-full h-full object-cover object-top"
           alt="teacher"
         />
       </div>
