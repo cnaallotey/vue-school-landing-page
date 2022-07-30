@@ -45,6 +45,7 @@ module.exports = {
       'red' : colors.red,
       'gray':colors.gray,
       'button': "#667dff",
+      'footerText': "#959bbc",
       'cornflower-blue': {
         DEFAULT: '#667DFF',
         '50': '#FFFFFF',

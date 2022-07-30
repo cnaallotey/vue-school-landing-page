@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div class="w-full py-32 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0]">
-      <div class="w-fit mx-auto flex items-center space-x-5">
+  <div class="relative overflow-hidden">
+    <div class="w-full py-20 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0]">
+      <div class="w-fit mx-auto flex items-center space-x-5 relative z-10">
         <p class="text-white text-5xl leading-10 font-normal font-sans">
           Share the love!
         </p>
@@ -26,6 +26,11 @@
           </span>
         </button>
       </div>
+      <img
+        src="../assets/images/lovetwitter.webp"
+        class="absolute bottom-0 right-20 w-[320px] translate-y-20"
+        alt=""
+      />
     </div>
   </div>
 </template>

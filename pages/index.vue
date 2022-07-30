@@ -12,6 +12,7 @@
     <Discount />
     <Tweet />
     <JoinExperts />
+    <Footersect />
   </div>
 </template>
 
@@ -28,4 +29,5 @@ import Faqs from "../components/faqs.vue";
 import Discount from "../components/discount.vue";
 import Tweet from "../components/tweet.vue";
 import JoinExperts from "../components/joinExperts.vue";
+import Footersect from "../components/footersect.vue";
 </script>
