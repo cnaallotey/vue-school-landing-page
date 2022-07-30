@@ -10,6 +10,8 @@
     <Teachers />
     <Faqs />
     <Discount />
+    <Tweet />
+    <JoinExperts />
   </div>
 </template>
 
@@ -24,4 +26,6 @@ import Testimonial from "../components/testimonial.vue";
 import Teachers from "../components/teachers.vue";
 import Faqs from "../components/faqs.vue";
 import Discount from "../components/discount.vue";
+import Tweet from "../components/tweet.vue";
+import JoinExperts from "../components/joinExperts.vue";
 </script>
