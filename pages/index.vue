@@ -6,6 +6,7 @@
     <Pricing />
     <Team />
     <Newsletter />
+    <Testimonial />
   </div>
 </template>
 
@@ -16,4 +17,5 @@ import CloudLogos from "../components/cloudLogos.vue";
 import Pricing from "../components/pricing.vue";
 import Team from "../components/team.vue";
 import Newsletter from "../components/newsletter.vue";
+import Testimonial from "../components/testimonial.vue";
 </script>
