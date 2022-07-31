@@ -1,18 +1,24 @@
 <template>
-  <div class="w-full bg-cornflower-blue-500 font-sans relative overflow-hidden">
+  <div
+    class="w-full bg-cornflower-blue-500 font-sans relative overflow-hidden pb-48 md:pb-0"
+  >
     <div
-      class="max-w-screen-xl mx-auto py-16 lg:py-28 px-12 flex flex-col items-center md:items-start relative z-10"
+      class="max-w-screen-xl mx-auto py-16 lg:py-28 md:px-12 lg:px-4 flex flex-col items-center md:items-start relative z-10"
     >
-      <p
-        class="font-circular text-white text-3xl lg:text-5xl text-center md:text-left leading-10 font-normal"
-      >
-        What are you waiting for?
-      </p>
-      <p
-        class="text-cornflower-blue-200 leading-6 text-lg text-center md:text-left font-medium mt-4 lg:mt-6 max-w-lg"
-      >
-        This is the lowest price it will get
-      </p>
+      <div class="w-full flex flex-col items-center md:items-start">
+        <p
+          class="text-white font-circular text-3xl md:text-[40px] lg:text-5xl leading-snug font-normal max-w-lg text-center md:text-left lg:max-w-2xl"
+        >
+          What are you waiting for?
+        </p>
+
+        <p
+          class="text-cornflower-blue-200 leading-6 text-lg font-medium text-center md:text-left mt-4 lg:mt-6 md:max-w-sm max-w-lg"
+        >
+          This is the lowest price it will get
+        </p>
+      </div>
+
       <button
         class="px-6 py-4 text-cornflower-blue-500 bg-white rounded-full uppercase inline-flex items-center mt-10 lg:mt-16 font-medium text-sm leading-5 space-x-2"
       >
@@ -34,7 +40,7 @@
 
     <img
       src="../assets/images/vrgoggle.svg"
-      class="relative md:absolute bottom-0 right-0 w-full -mt-32 md:-mt-0 md:w-[486px] lg:w-[800px] md:translate-y-1/3 lg:translate-y-1/4 z-0 md:translate-x-32"
+      class="absolute bottom-0 right-0 -mt-32 md:mt-10 w-[600px] md:w-[500px] lg:w-[800px] translate-y-1/3 lg:translate-y-1/4 z-0 md:translate-x-32"
       alt=""
     />
   </div>

@@ -10,23 +10,18 @@
         class="flex mt-5 flex-wrap items-center justify-center xl:justify-between max-w-screen-2xl mx-auto"
       >
         <img
-          src="../assets/images/trivagologo.svg"
+          v-for="logo in logos"
+          :key="logos.indexOf(logo)"
+          :src="require(`~/assets/images/${logo.Image}`)"
           class="m-4 h-6 md:h-8"
-          alt="trivago"
+          :alt="logo.name"
         />
-        <img src="../assets/images/canonlogo.svg" class="m-4 h-6 md:h-8" alt="canon" />
-        <img src="../assets/images/visalogo.svg" class="m-4 h-6 md:h-8" alt="" />
-        <img src="../assets/images/microsoftlogo.svg" class="m-4 h-6 md:h-8" alt="" />
-        <img src="../assets/images/gitlab.svg" class="m-4 h-6 md:h-8" alt="" />
-        <img src="../assets/images/nintendologo.svg" class="m-4 h-6 md:h-8" alt="" />
-        <img src="../assets/images/takawaylogo.webp" class="m-4 h-6 md:h-8" alt="" />
-        <img src="../assets/images/maersklogo.svg" class="m-4 h-6 md:h-8" alt="" />
       </div>
     </div>
     <div class="max-w-4xl mx-auto -mt-20 pb-10 overflow-x-scroll scrollbar-hide">
       <div class="flex w-fit mx-auto justify-center space-x-6 px-4 md:px-0">
         <div
-          class="flex flex-col w-[250px] items-center shadow-lg p-8 bg-white rounded-[10px]"
+          class="flex flex-col w-[209px] lg:w-[250px] items-center shadow-lg py-8 bg-white rounded-[10px]"
           v-for="stat in stats"
           :key="stats.indexOf(stat)"
         >
@@ -49,5 +44,40 @@ const stats = ref([
   { caption: "Video Lessons", figure: "300", icon: "video.svg" },
   { caption: "Courses", figure: "20", icon: "hours.svg" },
   { caption: "Hours and Increasing", figure: "20", icon: "course.svg" },
+]);
+
+const logos = ref([
+  {
+    name: "trivago",
+    Image: "trivagologo.svg",
+  },
+  {
+    name: "Canon",
+    Image: "canonlogo.svg",
+  },
+  {
+    name: "Visa",
+    Image: "visalogo.svg",
+  },
+  {
+    name: "Mocrosoft",
+    Image: "microsoftlogo.svg",
+  },
+  {
+    name: "Gitlab",
+    Image: "gitlab.svg",
+  },
+  {
+    name: "Nintendo",
+    Image: "nintendologo.svg",
+  },
+  {
+    name: "Takeaway",
+    Image: "takawaylogo.webp",
+  },
+  {
+    name: "Maersk",
+    Image: "maersklogo.svg",
+  },
 ]);
 </script>

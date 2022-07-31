@@ -1,6 +1,8 @@
 <template>
   <div class="relative overflow-hidden">
-    <div class="w-full py-20 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0] relative">
+    <div
+      class="w-full py-20 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0] relative pb-40 md:pb-20"
+    >
       <div
         class="w-fit mx-auto flex flex-col md:flex-row items-center md:space-x-5 space-y-5 md:space-y-0 relative z-10"
       >
@@ -30,7 +32,7 @@
       </div>
       <img
         src="../assets/images/lovetwitter.webp"
-        class="absolute bottom-0 hidden md:block right-20 w-[320px] translate-y-20"
+        class="absolute bottom-0 right-0 md:right-20 w-[320px] translate-y-20"
         alt=""
       />
     </div>

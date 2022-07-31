@@ -61,8 +61,14 @@
           </p>
           <div class="mt-5 flex items-end justify-center font-sans">
             <div class="flex items-center space-x-2">
-              <p class="font-bold line-through text-cornflower-blue-300 text-3xl">$190</p>
-              <p class="font-bold text-cornflower-blue-500 text-5xl">$114</p>
+              <p
+                class="font-extrabold font-circular line-through text-cornflower-blue-300 text-3xl"
+              >
+                $190
+              </p>
+              <p class="font-extrabold font-circular text-cornflower-blue-500 text-5xl">
+                $114
+              </p>
             </div>
             <p class="text-sm font-normal leading-5 text-gray-900 ml-2">Save $76</p>
           </div>
@@ -121,7 +127,7 @@
           </p>
           <div class="w-full py-[10px] bg-secondary-500 px-4 rounded-b-md">
             <div class="w-fit mx-auto text-primary-500">
-              <p class="font-medium font-sans text-lg bold text-center">
+              <p class="font-extrabold font-circular text-lg text-center">
                 Extended: Ends any minute
               </p>
             </div>
