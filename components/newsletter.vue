@@ -2,7 +2,7 @@
   <div class="w-full font-sans">
     <div class="w-full bg-[#4152b3] py-[72px] px-4">
       <div class="max-w-2xl mx-auto flex flex-col items-center">
-        <p class="text-white font-secondary-heading text-3xl lg:text-5xl leading-10 text-center font-normal">
+        <p class="text-white font-circular text-3xl lg:text-5xl leading-10 text-center font-normal">
           Stay in the loop!
         </p>
         <p

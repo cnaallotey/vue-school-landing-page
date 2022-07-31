@@ -14,7 +14,7 @@ module.exports = {
     fontFamily: {
       'sans': ['Rubik', 'Sans-serif'],
       'heading': ['Bebas Neue', 'cursive'],
-      'secondary-heading': ['CircularStd', 'truetype'],
+      'circular': ['CircularStd', 'truetype'],
       
     },
     colors: {

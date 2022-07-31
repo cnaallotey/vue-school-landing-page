@@ -4,7 +4,7 @@
       <div
         class="w-fit mx-auto flex flex-col md:flex-row items-center md:space-x-5 space-y-5 md:space-y-0 relative z-10"
       >
-        <p class=" font-secondary-heading text-white text-5xl leading-10 font-normal font-sans">
+        <p class="font-circular text-white text-5xl leading-10 font-normal">
           Share the love!
         </p>
         <button

@@ -2,7 +2,7 @@
   <section>
     <div class="w-full bg-primary-300 py-10 pb-32 px-4">
       <div class="text-center">
-        <p class="text-gray-300 font-normal text-base font-secondary-heading lg:text-base">
+        <p class="text-gray-300 font-normal text-base font-circular lg:text-base">
           Developers from major organisations learn Vue.js with us
         </p>
       </div>

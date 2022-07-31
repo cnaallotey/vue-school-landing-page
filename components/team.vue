@@ -4,7 +4,7 @@
       class="max-w-screen-xl mx-auto py-16 lg:py-28 relative z-10 px-12 flex flex-col items-center md:items-start"
     >
       <p
-        class="text-white font-secondary-heading text-3xl lg:text-5xl leading-10 font-normal max-w-md text-center md:text-left lg:max-w-2xl"
+        class="text-white font-circular text-3xl lg:text-5xl leading-10 font-normal max-w-md text-center md:text-left lg:max-w-2xl"
       >
         Looking into training your team?
       </p>

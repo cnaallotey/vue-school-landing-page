@@ -4,7 +4,7 @@
       class="max-w-screen-xl mx-auto py-16 lg:py-28 px-12 flex flex-col items-center md:items-start relative z-10"
     >
       <p
-        class="font-secondary-heading text-white text-3xl lg:text-5xl text-center md:text-left leading-10 font-normal"
+        class="font-circular text-white text-3xl lg:text-5xl text-center md:text-left leading-10 font-normal"
       >
         What are you waiting for?
       </p>

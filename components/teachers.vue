@@ -3,7 +3,7 @@
     <div class="w-full py-20 bg-[#f9fafe] font-sans">
       <div class="max-w-screen-xl mx-auto">
         <p
-          class="text-gray-900 text-3xl lg:text-5xl font-secondary-text-bold font-sans text-center leading-10 font-normal"
+          class="text-gray-900 text-3xl lg:text-5xl font-circular font-medium text-center leading-10"
         >
           Our Teachers
         </p>

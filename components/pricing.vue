@@ -4,7 +4,7 @@
       <div class="max-w-screen-lg mx-auto relative">
         <div class="w-fit absolute top-1/3 left-0 hidden md:block">
           <div
-            class="text-white font-sans text-xl font-medium text-center -rotate-12 uppercase"
+            class="text-white font-circular text-xl font-medium text-center -rotate-12 uppercase"
           >
             <p>100%</p>
             <p class="text-sm">money-back guarantee</p>
@@ -27,7 +27,7 @@
 
         <div class="w-fit mx-auto">
           <h2
-            class="font-sans text-2xl lg:text-4xl text-white pb-2 border-b-2 border-secondary-500"
+            class="font-circular font-medium text-2xl lg:text-4xl text-white pb-2 border-b-2 border-secondary-500"
           >
             40% Off - Limited Time Offer
           </h2>

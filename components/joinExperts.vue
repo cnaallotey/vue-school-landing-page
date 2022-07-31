@@ -3,7 +3,7 @@
     <div class="w-full">
       <div class="text-center">
         <p
-          class="font-secondary-heading text-white font-normal text-center font-sans text-base lg:text-base mt-"
+          class="font-circular text-white font-normal text-center text-base lg:text-base mt-"
         >
           Join other experts in learning
         </p>
