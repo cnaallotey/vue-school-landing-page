@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="w-full bg-primary-300 py-10 pb-32 px-4">
+    <div class="w-full bg-primary-300 py-10 md:pb-32 px-4">
       <div class="text-center">
         <p class="text-[#b7b9c9] font-normal text-base font-circular lg:text-xl">
           Developers from major organisations learn Vue.js with us
@@ -18,7 +18,7 @@
         />
       </div>
     </div>
-    <div class="max-w-4xl mx-auto -mt-20 pb-10 overflow-x-scroll scrollbar-hide">
+    <div class="max-w-4xl mx-auto -mt-5 md:-mt-20 pb-10 overflow-x-scroll scrollbar-hide">
       <div class="flex w-fit mx-auto justify-center space-x-6 px-4 md:px-0">
         <div
           class="flex flex-col w-[209px] lg:w-[250px] items-center shadow-lg py-8 bg-white rounded-[10px]"
