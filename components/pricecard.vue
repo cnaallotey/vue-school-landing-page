@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="max-w-md lg:max-w-xl mx-auto bg-white rounded-md mt-24">
-      <div class="h-2 bg-cornflower-blue-500 w-full rounded-t-md"></div>
+    <div class="max-w-md lg:max-w-xl mx-auto bg-white rounded-lg mt-24">
+      <div class="h-2 bg-cornflower-blue-500 w-full rounded-t-lg"></div>
       <img src="../assets/images/ufo.webp" class="w-32 -mt-20 mx-auto" alt="" />
       <p class="text-[24px] font-sans text-center text-gray-800 font-normal">
         <span class="font-medium">Yearly</span><span> Plan features</span>
@@ -17,7 +17,7 @@
             $114
           </p>
         </div>
-        <p class="text-sm font-normal leading-5 text-gray-900 ml-2">Save $76</p>
+        <p class="text-sm font-normal leading-5 text-gray-900 ml-2">/Save $76</p>
       </div>
       <div
         class="max-w-md mx-auto mt-5 pl-8 md:pl-20 pb-1 border-gray-200"
@@ -70,7 +70,7 @@
       <p class="text-[10px] text-gray-900 text-regular leading-5 my-3 text-center">
         Join 60,000 others!
       </p>
-      <div class="w-full py-[10px] bg-secondary-500 px-4 rounded-b-md">
+      <div class="w-full py-[10px] bg-secondary-500 px-4 rounded-b-lg">
         <div class="w-fit mx-auto text-primary-500">
           <p class="font-extrabold font-circular text-lg text-center">
             Extended: Ends any minute
