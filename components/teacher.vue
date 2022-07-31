@@ -11,7 +11,10 @@ const props = defineProps({
     <div
       class="w-52 md:w-full h-full rounded-lg overflow-hidden bg-white border-2 border-gray-100"
     >
-      <div class="w-full h-52 md:h-[230px] rounded-lg overflow-hidden">
+      <div class="w-full h-52 md:h-[230px] rounded-lg overflow-hidden relative">
+        <div
+          class="w-full h-full absolute top-0 bg-gradient-to-tl from-[#667dff] opacity-50"
+        ></div>
         <img
           :src="
             !props.img

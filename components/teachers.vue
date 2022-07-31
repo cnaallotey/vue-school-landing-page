@@ -46,8 +46,7 @@ const teachers = ref([
   {
     name: "Alexandre Chopin",
     role: "Teacher, Software Engineer",
-    img:
-      "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/hkght4taxihlfidrfggv",
+    img: "https://miro.medium.com/fit/c/176/176/1*U1PmLpfVIC_62mUKIVMNRQ.jpeg",
   },
   {
     name: "Roman Cuba",
