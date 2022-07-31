@@ -1,16 +1,21 @@
 <template>
   <div class="w-full">
     <div class="max-w-screen-xl mx-auto py-20 px-4">
-      <div class="w-full flex flex-col lg:flex-row lg:space-x-32">
-        <img
-          src="../assets/images/chris.webp"
-          class="w-56 h-auto shadow-lg drop-shadow-lg"
-          alt=""
-        />
+      <div
+        class="w-full flex flex-col md:flex-row md:space-x-16 lg:space-x-32 space-y-10 md:space-y-2"
+      >
+        <div
+          class="w-full md:w-56 h-[257px]shadow-lg drop-shadow-lg rounded-lg overflow-hidden"
+        >
+          <img
+            src="https://vueschool.io/img/teachers/vueschool_vuejs_chris_fritz.jpg"
+            class="w-full h-full object-center object-cover"
+            alt=""
+          />
+        </div>
         <div class="flex-1">
           <svg
-            width="51"
-            height="46"
+            class="w-8 lg:w-12 h-auto"
             viewBox="0 0 51 46"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -21,7 +26,9 @@
               opacity=".2"
             />
           </svg>
-          <p class="text-gray-900 font-normal leading-9 text-lg font-sans mt-5">
+          <p
+            class="text-gray-900 font-normal leading-5 md:leading-6 lg:leading-9 text-xs md:text-base lg:text-lg font-sans mt-5"
+          >
             Even if you've read through every word of the Vue docs, there's no substitute
             for real experience building an app, making decisions, weighing pros and cons,
             and refactoring as requirements change. Courses like these give you a head

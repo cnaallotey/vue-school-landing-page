@@ -1,14 +1,22 @@
 <template>
   <div class="w-full bg-cornflower-blue-500 font-sans relative overflow-hidden">
-    <div class="max-w-screen-xl mx-auto py-28">
-      <p class="text-white text-5xl leading-10 font-normal">What are you waiting for?</p>
-      <p class="text-cornflower-blue-200 leading-6 text-lg font-medium mt-6 max-w-lg">
+    <div
+      class="max-w-screen-xl mx-auto py-16 lg:py-28 px-12 flex flex-col items-center md:items-start relative z-10"
+    >
+      <p
+        class="font-secondary-heading text-white text-3xl lg:text-5xl text-center md:text-left leading-10 font-normal"
+      >
+        What are you waiting for?
+      </p>
+      <p
+        class="text-cornflower-blue-200 leading-6 text-lg text-center md:text-left font-medium mt-4 lg:mt-6 max-w-lg"
+      >
         This is the lowest price it will get
       </p>
       <button
-        class="px-6 py-4 text-cornflower-blue-500 bg-white rounded-full uppercase inline-flex items-center mt-16 font-medium text-sm leading-5 space-x-2"
+        class="px-6 py-4 text-cornflower-blue-500 bg-white rounded-full uppercase inline-flex items-center mt-10 lg:mt-16 font-medium text-sm leading-5 space-x-2"
       >
-        <span>SECURE YOUR DISCOUNT</span>
+        <span>Secure your discount</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-5 w-5"
@@ -26,7 +34,7 @@
 
     <img
       src="../assets/images/vrgoggle.svg"
-      class="absolute top-0 right-0 w-[800px] -translate-y-1/4 translate-x-32"
+      class="relative md:absolute bottom-0 right-0 w-full -mt-32 md:-mt-0 md:w-[486px] lg:w-[800px] md:translate-y-1/3 lg:translate-y-1/4 z-0 md:translate-x-32"
       alt=""
     />
   </div>

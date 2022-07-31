@@ -13,7 +13,9 @@ module.exports = {
   theme: {
     fontFamily: {
       'sans': ['Rubik', 'Sans-serif'],
-      'heading': ['Bebas Neue', 'cursive']
+      'heading': ['Bebas Neue', 'cursive'],
+      'secondary-heading': ['CircularStd', 'truetype'],
+      
     },
     colors: {
       "secondary": {
@@ -76,5 +78,7 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

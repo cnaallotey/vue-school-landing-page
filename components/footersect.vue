@@ -18,9 +18,11 @@ const menu = ref([
 </script>
 
 <template>
-  <div class="w-full bg-gradient-to-br from-[#2d3765] to-[#1e264a] py-24 pb-[59px]">
+  <div
+    class="w-full bg-gradient-to-br from-[#2d3765] to-[#1e264a] py-4 md:py-24 md:pb-[59px] px-4"
+  >
     <div class="max-w-screen-xl mx-auto">
-      <div class="grid grid-cols-4">
+      <div class="hidden md:grid grid-cols-4">
         <div class="w-full" v-for="menusection in menu" :key="menusection.title">
           <p class="uppercase font-sans font-medium text-xs text-footerText leading-5">
             {{ menusection.title }}
@@ -52,10 +54,12 @@ const menu = ref([
         </div>
       </div>
 
-      <div class="w-full mt-20 flex items-center justify-between">
+      <div class="w-full md:mt-20 flex items-center justify-between">
         <div class="w-fit flex items-center space-x-4">
           <img src="../assets/images/logo-white.svg" alt="" />
-          <p class="text-xs font-sans text-footerText font-normal leading-5">
+          <p
+            class="text-xs font-sans text-footerText font-normal leading-5 hidden md:block"
+          >
             © Vue School 2019. All rights reserved
           </p>
         </div>

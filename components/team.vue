@@ -1,14 +1,20 @@
 <template>
   <div class="w-full bg-cornflower-blue-500 font-sans relative overflow-hidden">
-    <div class="max-w-screen-xl mx-auto py-28">
-      <p class="text-white text-5xl leading-10 font-normal">
+    <div
+      class="max-w-screen-xl mx-auto py-16 lg:py-28 relative z-10 px-12 flex flex-col items-center md:items-start"
+    >
+      <p
+        class="text-white font-secondary-heading text-3xl lg:text-5xl leading-10 font-normal max-w-md text-center md:text-left lg:max-w-2xl"
+      >
         Looking into training your team?
       </p>
-      <p class="text-cornflower-blue-200 leading-6 text-lg font-medium mt-6 max-w-lg">
+      <p
+        class="text-cornflower-blue-200 leading-6 text-lg font-medium text-center md:text-left mt-4 lg:mt-6 max-w-lg"
+      >
         We offer a Black Friday 20% discount on all business licenses.
       </p>
       <button
-        class="px-6 py-4 text-cornflower-blue-500 bg-white rounded-full uppercase inline-flex items-center mt-16 font-medium text-sm leading-5 space-x-2"
+        class="px-6 py-4 text-cornflower-blue-500 w-fit mx-auto md:mx-0 bg-white rounded-full uppercase inline-flex items-center mt-12 lg:mt-16 font-medium text-sm leading-5 space-x-2"
       >
         <span>Vue school for teams</span>
         <svg
@@ -28,7 +34,7 @@
 
     <img
       src="../assets/images/teamwork.svg"
-      class="absolute top-0 right-0 w-[800px] -translate-y-1/4 translate-x-32"
+      class="relative md:absolute bottom-0 right-0 w-full -mt-32 md:-mt-0 md:w-[486px] lg:w-[800px] md:translate-y-1/3 lg:translate-y-1/4 z-0 md:translate-x-32"
       alt=""
     />
   </div>

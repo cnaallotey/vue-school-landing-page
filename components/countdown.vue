@@ -2,14 +2,14 @@
   <div class="w-full my-10">
     <div class="w-fit mx-auto flex items-center space-x-2">
       <div class="flex flex-col items-center">
-        <div class="w-24 h-24 relative">
+        <div class="w-16 h-16 lg:w-24 lg:h-24 relative">
           <div class="flex flex-col space-y-0.5 w-full h-full rounded-md overflow-hidden">
             <div class="w-full h-1/2 bg-secondary-600"></div>
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
-            <p class="text-6xl font-sans font-semibold text-primary-500">
-              {{ countdown.days }}
+            <p class="text-4xl lg:text-6xl font-sans font-semibold text-primary-500">
+              <span v-if="countdown.days < 10">0</span>{{ countdown.days }}
             </p>
           </div>
         </div>
@@ -17,14 +17,14 @@
       </div>
       <p class="text-secondary-500 font-sans text-5xl font-normal -mt-6">:</p>
       <div class="flex flex-col items-center">
-        <div class="w-24 h-24 relative">
+        <div class="w-16 h-16 lg:w-24 lg:h-24 relative">
           <div class="flex flex-col space-y-0.5 w-full h-full rounded-md overflow-hidden">
             <div class="w-full h-1/2 bg-secondary-600"></div>
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
-            <p class="text-6xl font-sans font-semibold text-primary-500">
-              {{ countdown.hours }}
+            <p class="text-4xl lg:text-6xl font-sans font-semibold text-primary-500">
+              <span v-if="countdown.hours < 10">0</span>{{ countdown.hours }}
             </p>
           </div>
         </div>
@@ -32,14 +32,14 @@
       </div>
       <p class="text-secondary-500 font-sans text-5xl font-normal -mt-6">:</p>
       <div class="flex flex-col items-center">
-        <div class="w-24 h-24 relative">
+        <div class="w-16 h-16 lg:w-24 lg:h-24 relative">
           <div class="flex flex-col space-y-0.5 w-full h-full rounded-md overflow-hidden">
             <div class="w-full h-1/2 bg-secondary-600"></div>
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
-            <p class="text-6xl font-sans font-semibold text-primary-500">
-              {{ countdown.minutes }}
+            <p class="text-4xl lg:text-6xl font-sans font-semibold text-primary-500">
+              <span v-if="countdown.minutes < 10">0</span>{{ countdown.minutes }}
             </p>
           </div>
         </div>
@@ -47,14 +47,14 @@
       </div>
       <p class="text-secondary-500 font-sans text-5xl font-normal -mt-6">:</p>
       <div class="flex flex-col items-center">
-        <div class="w-24 h-24 relative">
+        <div class="w-16 h-16 lg:w-24 lg:h-24 relative">
           <div class="flex flex-col space-y-0.5 w-full h-full rounded-md overflow-hidden">
             <div class="w-full h-1/2 bg-secondary-600"></div>
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
-            <p class="text-6xl font-sans font-semibold text-primary-500">
-              {{ countdown.seconds }}
+            <p class="text-4xl lg:text-6xl font-sans font-semibold text-primary-500">
+              <span v-if="countdown.seconds < 10">0</span>{{ countdown.seconds }}
             </p>
           </div>
         </div>

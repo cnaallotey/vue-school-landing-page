@@ -2,10 +2,14 @@
   <div>
     <div class="w-full py-20 bg-[#f9fafe] font-sans">
       <div class="max-w-screen-xl mx-auto">
-        <p class="text-gray-900 text-5xl font-sans text-center leading-10 font-normal">
+        <p
+          class="text-gray-900 text-3xl lg:text-5xl font-secondary-text-bold font-sans text-center leading-10 font-normal"
+        >
           Our Teachers
         </p>
-        <div class="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div
+          class="mt-10 flex flex-row space-x-6 overflow-x-scroll scrollbar-hide md:grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4"
+        >
           <Teacher
             v-for="teacher in teachers"
             :key="teacher.name"

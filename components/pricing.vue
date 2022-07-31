@@ -2,16 +2,16 @@
   <div class="w-full mt-32 font-sans">
     <div class="w-full bg-primary-500 px-4 py-[34px]">
       <div class="max-w-screen-lg mx-auto relative">
-        <div class="w-fit absolute top-1/3 left-0">
+        <div class="w-fit absolute top-1/3 left-0 hidden md:block">
           <div
             class="text-white font-sans text-xl font-medium text-center -rotate-12 uppercase"
           >
             <p>100%</p>
-            <p class="text-sm">money-back gurantee</p>
+            <p class="text-sm">money-back guarantee</p>
           </div>
           <img src="../assets/images/arrow.webp" class="w-24 mx-auto mt-4" alt="" />
         </div>
-        <div class="w-fit absolute bottom-32 right-10">
+        <div class="w-fit absolute bottom-32 right-10 hidden md:block">
           <img
             src="../assets/images/arrow.webp"
             class="w-24 mx-0 mb-4 rotate-180 -ml-8"
@@ -26,30 +26,34 @@
         </div>
 
         <div class="w-fit mx-auto">
-          <h2 class="font-sans text-4xl text-white pb-2 border-b-2 border-secondary-500">
+          <h2
+            class="font-sans text-2xl lg:text-4xl text-white pb-2 border-b-2 border-secondary-500"
+          >
             40% Off - Limited Time Offer
           </h2>
         </div>
         <div class="mx-auto w-fit mt-10">
-          <div class="w-full p-[6px] flex rounded-full bg-primary-700 bg-opacity-100">
+          <div
+            class="w-full p-[6px] flex rounded-full bg-primary-700 bg-opacity-100 text-[13px]"
+          >
             <button
-              class="py-3 px-8 rounded-full bg-heliotrope-500 font-medium font-sans text-white uppercase tracking-[0.37px]"
+              class="py-3 px-2 md:px-8 rounded-full bg-heliotrope-500 font-medium font-sans text-white uppercase tracking-[0.37px]"
             >
               yearly plan
             </button>
             <button
-              class="py-3 px-8 rounded-full font-medium font-sans text-heliotrope-500 uppercase tracking-[0.37px]"
+              class="py-3 px-2 md:px-8 rounded-full font-medium font-sans text-heliotrope-500 uppercase tracking-[0.37px]"
             >
               Lifetime plan
             </button>
             <button
-              class="py-3 px-8 rounded-full font-medium font-sans text-heliotrope-500 uppercase tracking-[0.37px]"
+              class="py-3 px-2 md:px-8 rounded-full font-medium font-sans text-heliotrope-500 uppercase tracking-[0.37px]"
             >
               3 months
             </button>
           </div>
         </div>
-        <div class="max-w-xl mx-auto bg-white rounded-md mt-24">
+        <div class="max-w-md lg:max-w-xl mx-auto bg-white rounded-md mt-24">
           <div class="h-2 bg-cornflower-blue-500 w-full rounded-t-md"></div>
           <img src="../assets/images/ufo.webp" class="w-32 -mt-20 mx-auto" alt="" />
           <p class="text-[24px] font-sans text-center text-gray-800 font-normal">
@@ -63,7 +67,7 @@
             <p class="text-sm font-normal leading-5 text-gray-900 ml-2">Save $76</p>
           </div>
           <div
-            class="max-w-md mx-auto mt-5 pl-20 pb-1 border-gray-200"
+            class="max-w-md mx-auto mt-5 pl-8 md:pl-20 pb-1 border-gray-200"
             v-for="feature in features"
             :key="features.indexOf(feature)"
             :class="

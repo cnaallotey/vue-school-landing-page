@@ -1,5 +1,9 @@
 <template>
-  <svg width="183" height="39" viewBox="0 0 183 39" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    class="h-6 md:h-8 lg:h-9 w-auto"
+    viewBox="0 0 183 39"
+    xmlns="http://www.w3.org/2000/svg"
+  >
     <defs>
       <linearGradient x1="53.121%" y1="26.377%" x2="56.423%" y2="65.899%" id="7zxahuqc8a">
         <stop stop-color="#131057" offset="0%" />

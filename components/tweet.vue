@@ -1,12 +1,14 @@
 <template>
   <div class="relative overflow-hidden">
-    <div class="w-full py-20 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0]">
-      <div class="w-fit mx-auto flex items-center space-x-5 relative z-10">
-        <p class="text-white text-5xl leading-10 font-normal font-sans">
+    <div class="w-full py-20 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0] relative">
+      <div
+        class="w-fit mx-auto flex flex-col md:flex-row items-center md:space-x-5 space-y-5 md:space-y-0 relative z-10"
+      >
+        <p class=" font-secondary-heading text-white text-5xl leading-10 font-normal font-sans">
           Share the love!
         </p>
         <button
-          class="p-2 rounded-full text-white bg-gray-800 uppercase inline-flex font-sans items-center pl-8 space-x-5"
+          class="p-2 rounded-full text-[#1da1f2] bg-gray-800 uppercase inline-flex font-sans items-center pl-8 space-x-5"
         >
           <span class="font-medium">tweet</span>
           <span
@@ -28,7 +30,7 @@
       </div>
       <img
         src="../assets/images/lovetwitter.webp"
-        class="absolute bottom-0 right-20 w-[320px] translate-y-20"
+        class="absolute bottom-0 hidden md:block right-20 w-[320px] translate-y-20"
         alt=""
       />
     </div>

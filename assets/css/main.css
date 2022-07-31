@@ -10,3 +10,26 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: 'CircularStd';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('~assets/CircularStd-Book.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'CircularStd';
+    font-style: medium;
+    font-weight: 600;
+    font-display: swap;
+    src: url('~assets/CircularStd-Medium.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'CircularStd';
+    font-style: Bold;
+    font-weight: 800;
+    font-display: swap;
+    src: url('~assets/CircularStd-Bold.ttf') format('truetype');
+  }

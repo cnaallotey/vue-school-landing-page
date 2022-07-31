@@ -8,10 +8,16 @@ const props = defineProps({
 
 <template>
   <div>
-    <div class="w-full rounded-lg overflow-hidden bg-white border-2 border-gray-100">
-      <div class="w-full h-[230px] rounded-lg overflow-hidden">
+    <div
+      class="w-52 md:w-full rounded-lg overflow-hidden bg-white border-2 border-gray-100"
+    >
+      <div class="w-full h-52 md:h-[230px] rounded-lg overflow-hidden">
         <img
-          :src="!props.img ? '/_nuxt/assets/images/chris.webp' : props.img"
+          :src="
+            !props.img
+              ? 'https://vueschool.io/img/teachers/vueschool_vuejs_chris_fritz.jpg'
+              : props.img
+          "
           class="w-full h-full object-cover object-top"
           alt="teacher"
         />
