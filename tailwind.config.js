@@ -15,6 +15,7 @@ module.exports = {
       'sans': ['Rubik', 'Sans-serif'],
       'heading': ['Bebas Neue', 'cursive'],
       'circular': ['CircularStd', 'truetype'],
+      'marker': ['MarkerFelt', 'truetype'],
       
     },
     colors: {

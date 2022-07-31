@@ -2,7 +2,9 @@
   <div class="w-full font-sans">
     <div class="w-full bg-[#4152b3] py-[72px] px-4">
       <div class="max-w-2xl mx-auto flex flex-col items-center">
-        <p class="text-white font-circular text-3xl lg:text-5xl leading-10 text-center font-normal">
+        <p
+          class="text-white font-circular text-3xl lg:text-5xl leading-10 text-center font-normal"
+        >
           Stay in the loop!
         </p>
         <p
@@ -25,7 +27,7 @@
               required
             />
             <button
-              class="absolute top-1 right-1 inline-flex items-center space-x-2 py-3 px-8 rounded-full bg-cornflower-blue-900 font-medium font-sans text-[#4bbbff] uppercase tracking-[0.37px]"
+              class="absolute top-1 right-1 inline-flex items-center space-x-2 py-4 px-3 md:px-4 lg:px-8 rounded-full bg-cornflower-blue-900 font-medium text-xs font-sans text-[#4bbbff] uppercase tracking-[0.37px]"
             >
               <span>keep me posted</span>
               <span

@@ -8,7 +8,7 @@
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
-            <p class="text-4xl lg:text-6xl font-sans font-semibold text-primary-500">
+            <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
               <span v-if="countdown.days < 10">0</span>{{ countdown.days }}
             </p>
           </div>
@@ -23,7 +23,7 @@
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
-            <p class="text-4xl lg:text-6xl font-sans font-semibold text-primary-500">
+            <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
               <span v-if="countdown.hours < 10">0</span>{{ countdown.hours }}
             </p>
           </div>
@@ -38,7 +38,7 @@
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
-            <p class="text-4xl lg:text-6xl font-sans font-semibold text-primary-500">
+            <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
               <span v-if="countdown.minutes < 10">0</span>{{ countdown.minutes }}
             </p>
           </div>
@@ -53,7 +53,7 @@
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
-            <p class="text-4xl lg:text-6xl font-sans font-semibold text-primary-500">
+            <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
               <span v-if="countdown.seconds < 10">0</span>{{ countdown.seconds }}
             </p>
           </div>

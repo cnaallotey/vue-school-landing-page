@@ -9,7 +9,7 @@ const props = defineProps({
 <template>
   <div>
     <div
-      class="w-52 md:w-full rounded-lg overflow-hidden bg-white border-2 border-gray-100"
+      class="w-52 md:w-full h-full rounded-lg overflow-hidden bg-white border-2 border-gray-100"
     >
       <div class="w-full h-52 md:h-[230px] rounded-lg overflow-hidden">
         <img

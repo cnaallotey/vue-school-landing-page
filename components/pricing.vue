@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full mt-32 font-sans">
-    <div class="w-full bg-primary-500 px-4 py-[34px]">
+  <div class="w-full mt-24 font-sans">
+    <div class="w-full bg-primary-500 px-4 py-[34px] lg:pb-16">
       <div class="max-w-screen-lg mx-auto relative">
         <div class="w-fit absolute top-1/3 left-0 hidden md:block">
           <div
-            class="text-white font-circular text-xl font-medium text-center -rotate-12 uppercase"
+            class="text-white font-marker text-xl font-bold text-center -rotate-12 uppercase"
           >
             <p>100%</p>
             <p class="text-sm">money-back guarantee</p>
@@ -18,7 +18,7 @@
             alt=""
           />
           <div
-            class="text-white font-sans text-sm font-medium text-center -rotate-12 uppercase"
+            class="text-white font-marker text-sm font-bold text-center -rotate-12 uppercase"
           >
             <p>courses for</p>
             <p class="text-sm">skill level</p>
@@ -42,12 +42,12 @@
               yearly plan
             </button>
             <button
-              class="py-3 px-2 md:px-8 rounded-full font-medium font-sans text-heliotrope-500 uppercase tracking-[0.37px]"
+              class="py-3 px-2 md:px-8 rounded-full font-medium font-sans text-[#7f7fd6] uppercase tracking-[0.37px]"
             >
               Lifetime plan
             </button>
             <button
-              class="py-3 px-2 md:px-8 rounded-full font-medium font-sans text-heliotrope-500 uppercase tracking-[0.37px]"
+              class="py-3 px-2 md:px-8 rounded-full font-medium font-sans text-[#7f7fd6] uppercase tracking-[0.37px]"
             >
               3 months
             </button>

@@ -8,7 +8,7 @@
           Our Teachers
         </p>
         <div
-          class="mt-10 flex flex-row space-x-6 overflow-x-scroll scrollbar-hide md:grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4"
+          class="mt-8 md:mt-10 flex flex-row space-x-5 md:space-x-0 overflow-x-scroll scrollbar-hide md:grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 md:gap-6 px-4"
         >
           <Teacher
             v-for="teacher in teachers"

@@ -3,7 +3,7 @@
     <div class="w-full py-10 md:py-16 lg:py-32">
       <div class="max-w-screen-md mx-auto px-4">
         <p
-          class="text-gray-900 text-xl md:text-4xl lg:text-5xl font-sans text-center leading-10 font-normal"
+          class="text-gray-900 text-3xl md:text-4xl lg:text-5xl font-circular text-center leading-10 font-medium"
         >
           Do you have any questions?
         </p>
@@ -48,7 +48,7 @@
               ></span>
             </button>
             <p
-              class="mt-6 md:mt-8 text-xs md:text-sm font-normal leading-6 text-gray-700 font-sans"
+              class="mt-6 md:mt-8 text-xs md:text-sm max-w-sm md:max-w-full font-normal leading-6 md:leading-7 text-gray-700 font-sans"
               v-if="faq.open"
             >
               {{ faq.ans }}

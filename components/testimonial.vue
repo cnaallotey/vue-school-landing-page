@@ -36,7 +36,7 @@
           </p>
           <div class="w-full flex justify-end mt-3">
             <p class="text-sm font-sans text-gray-800 font-normal leading-7">
-              <span class="font-medium">Chris Fritz. </span>Author of Vue.js Docs
+              - <span class="font-medium">Chris Fritz. </span>Author of Vue.js Docs
             </p>
           </div>
         </div>
