@@ -7,7 +7,7 @@
             class="text-white font-marker text-xl font-bold text-center -rotate-12 uppercase"
           >
             <p>100%</p>
-            <p class="text-sm">money-back guarantee</p>
+            <p class="text-sm">money back guarantee</p>
           </div>
           <img src="../assets/images/arrow.webp" class="w-24 mx-auto mt-4" alt="" />
         </div>
@@ -20,8 +20,8 @@
           <div
             class="text-white font-marker text-sm font-bold text-center -rotate-12 uppercase"
           >
-            <p>courses for</p>
-            <p class="text-sm">skill level</p>
+            <p>courses for all</p>
+            <p class="text-sm">skill levels</p>
           </div>
         </div>
 

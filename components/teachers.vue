@@ -33,20 +33,37 @@ const teachers = ref([
     role: "Co-founder, Software Engineer",
     img: "https://vueschool.io/img/teachers/vueschool_vuejs_alex_kyriakidis.jpg",
   },
-  { name: "Rolf Haug", role: "Co-founder, Software Engineer", img: "" },
+  {
+    name: "Rolf Haug",
+    role: "Co-founder, Software Engineer",
+    img: "https://avatars.githubusercontent.com/u/306927?v=4",
+  },
   {
     name: "Chris Fritz",
     role: "Co-founder, Software Engineer",
     img: "https://vueschool.io/img/teachers/vueschool_vuejs_chris_fritz.jpg",
   },
-  { name: "Alexandre Chopin", role: "Teacher, Software Engineer", img: "" },
+  {
+    name: "Alexandre Chopin",
+    role: "Teacher, Software Engineer",
+    img:
+      "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/hkght4taxihlfidrfggv",
+  },
   {
     name: "Roman Cuba",
     role: "Teacher, Software Engineer",
     img: "https://vueschool.io/img/teachers/vueschool_vuejs_roman_kuba.jpg",
   },
-  { name: "Sebastien Chopin", role: "Teacher, Software Engineer", img: "" },
-  { name: "Alexander Lichter", role: "Teacher, Software Engineer", img: "" },
+  {
+    name: "Sebastien Chopin",
+    role: "Teacher, Software Engineer",
+    img: "https://pbs.twimg.com/profile_images/1042510623962275840/1Iw_Mvud_400x400.jpg",
+  },
+  {
+    name: "Alexander Lichter",
+    role: "Teacher, Software Engineer",
+    img: "https://www.lichter.io/assets/icons/icon_512x512.928fac.png",
+  },
   {
     name: "Lydia Hallie",
     role: "Teacher, Software Engineer",

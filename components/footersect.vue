@@ -58,7 +58,7 @@ const menu = ref([
         <div class="w-fit flex items-center space-x-4">
           <img src="../assets/images/logo-white.svg" alt="" />
           <p
-            class="text-xs font-sans text-footerText font-normal leading-5 hidden md:block"
+            class="text-xs font-sans text-footerText select-none cursor-default font-normal leading-5 hidden md:block"
           >
             © Vue School 2019. All rights reserved
           </p>
@@ -67,9 +67,9 @@ const menu = ref([
           <ul
             class="inline-flex text-xs font-sans text-footerText font-normal space-x-2 leading-5"
           >
-            <li>Privacy Policy</li>
+            <li><a href="#">Privacy Policy</a></li>
             <li>.</li>
-            <li>Terms & Conditions</li>
+            <li><a href="#">Terms & Conditions</a></li>
           </ul>
         </div>
       </div>

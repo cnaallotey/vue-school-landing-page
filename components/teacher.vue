@@ -19,7 +19,7 @@ const props = defineProps({
               : props.img
           "
           class="w-full h-full object-cover object-top"
-          alt="teacher"
+          :alt="props.name"
         />
       </div>
       <div class="w-full p-6">
