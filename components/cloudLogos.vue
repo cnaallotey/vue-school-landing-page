@@ -21,7 +21,7 @@
     <div class="max-w-4xl mx-auto -mt-5 md:-mt-20 pb-10 overflow-x-scroll scrollbar-hide">
       <div class="flex w-fit mx-auto justify-center space-x-6 px-4 md:px-0">
         <div
-          class="flex flex-col w-[209px] lg:w-[250px] items-center shadow-lg py-8 bg-white rounded-[10px]"
+          class="flex flex-col w-[209px] lg:w-[250px] items-center shadow-lg py-8 bg-[#f9fafe] rounded-[10px]"
           v-for="stat in stats"
           :key="stats.indexOf(stat)"
         >

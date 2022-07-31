@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-full bg-cornflower-blue-500 font-sans relative overflow-hidden pb-48 md:pb-0"
+    class="w-full bg-cornflower-blue-500 font-sans relative overflow-hidden pb-44 md:pb-0"
   >
     <div
-      class="max-w-screen-xl mx-auto py-16 lg:py-28 md:px-12 lg:px-4 flex flex-col items-center md:items-start relative z-10"
+      class="max-w-screen-xl mx-auto py-10 md:py-16 lg:py-28 px-4 md:px-12 lg:px-4 flex flex-col items-center md:items-start relative z-10"
     >
       <div class="w-full flex flex-col items-center md:items-start">
         <p

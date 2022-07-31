@@ -9,7 +9,11 @@
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
             <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
-              <span v-if="countdown.days < 10">0</span>{{ countdown.days }}
+              <!-- check if countdown has exceeded 0 -->
+              <span v-if="countdown.days > 0"
+                ><span v-if="countdown.days < 10">0</span>{{ countdown.days }}</span
+              >
+              <span v-else>00</span>
             </p>
           </div>
         </div>
@@ -24,7 +28,11 @@
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
             <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
-              <span v-if="countdown.hours < 10">0</span>{{ countdown.hours }}
+              <!-- check if countdown has exceeded 0 -->
+              <span v-if="countdown.hours > 0"
+                ><span v-if="countdown.hours < 10">0</span>{{ countdown.hours }}</span
+              >
+              <span v-else>00</span>
             </p>
           </div>
         </div>
@@ -39,7 +47,11 @@
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
             <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
-              <span v-if="countdown.minutes < 10">0</span>{{ countdown.minutes }}
+              <!-- check if countdown has exceeded 0 -->
+              <span v-if="countdown.minutes > 0"
+                ><span v-if="countdown.minutes < 10">0</span>{{ countdown.minutes }}</span
+              >
+              <span v-else>00</span>
             </p>
           </div>
         </div>
@@ -54,7 +66,11 @@
           </div>
           <div class="w-full absolute inset-1 h-full flex items-center justify-center">
             <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
-              <span v-if="countdown.seconds < 10">0</span>{{ countdown.seconds }}
+              <!-- check if countdown has exceeded 0 -->
+              <span v-if="countdown.seconds > 0"
+                ><span v-if="countdown.seconds < 10">0</span>{{ countdown.seconds }}
+              </span>
+              <span v-else>00</span>
             </p>
           </div>
         </div>
@@ -72,6 +88,7 @@ const countdown = reactive({ days: "", hours: "", minutes: "", seconds: "" });
 
 var interval = 1000;
 
+//getting current date and time and finding the difference to specified data and time
 onMounted(() => {
   setInterval(function () {
     const x = new moment();

@@ -7,12 +7,12 @@
         >
           Do you have any questions?
         </p>
-        <div class="w-full mt-10">
+        <div class="w-full mt-5 md:mt-10">
           <div
             class="border-gray-200 py-8"
             v-for="faq in faqs"
             :key="faq.que"
-            :class="faqs.indexOf(faq) + 1 == faqs.length ? 'border-b-0' : 'border-b-2'"
+            :class="faqs.indexOf(faq) + 1 == faqs.length ? 'border-b-0' : 'border-b'"
           >
             <button
               class="w-full py-3 inline-flex justify-between text-gray-700 text-base md:text-xl font-medium leading-6 font-sans"

@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <div class="max-w-screen-xl mx-auto py-20 px-4">
+    <div class="max-w-screen-xl mx-auto py-10 md:py-20 px-4 md:px-8 lg:px-4">
       <div
         class="w-full flex flex-col md:flex-row md:space-x-16 lg:space-x-32 space-y-10 md:space-y-2"
       >

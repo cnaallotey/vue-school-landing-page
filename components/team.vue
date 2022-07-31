@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-full bg-cornflower-blue-500 font-sans relative overflow-hidden pb-56 md:pb-0"
+    class="w-full bg-cornflower-blue-500 font-sans relative overflow-hidden pb-44 md:pb-0"
   >
     <div
-      class="max-w-screen-xl mx-auto py-16 lg:py-28 relative z-10 md:px-12 lg:px-4 flex flex-col items-center md:items-start"
+      class="max-w-screen-xl mx-auto py-10 md:py-16 lg:py-28 relative z-10 px-4 md:px-12 lg:px-4 flex flex-col items-center md:items-start"
     >
       <div class="w-full flex flex-col items-center md:items-start">
         <p
@@ -39,7 +39,7 @@
 
     <img
       src="../assets/images/teamwork.svg"
-      class="absolute bottom-0 right-0 -mt-32 md:mt-10 w-[600px] md:w-[600px] lg:w-[800px] translate-y-1/3 lg:translate-y-1/4 z-0 md:translate-x-32"
+      class="absolute bottom-0 right-0 -mt-32 md:mt-10 w-[600px] md:w-[600px] lg:w-[800px] h-auto translate-y-1/3 lg:translate-y-1/4 z-0 md:translate-x-32"
       alt=""
     />
   </div>

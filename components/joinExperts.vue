@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full py-[45px] bg-[#1f264a]">
+  <div class="w-full py-[45px] bg-[#1f264a] px-4">
     <div class="w-full">
       <div class="text-center">
         <p class="font-circular text-white font-normal text-center text-base lg:text-xl">

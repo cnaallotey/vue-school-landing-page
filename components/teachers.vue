@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-full py-20 bg-[#f9fafe] font-sans">
+    <div class="w-full py-10 md:py-20 bg-[#f9fafe] font-sans">
       <div class="max-w-screen-xl mx-auto">
         <p
           class="text-gray-900 text-3xl lg:text-5xl font-circular font-medium text-center leading-10"
@@ -8,7 +8,7 @@
           Our Teachers
         </p>
         <div
-          class="mt-8 md:mt-10 flex flex-row space-x-5 md:space-x-0 overflow-x-scroll scrollbar-hide md:grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 md:gap-6 px-4"
+          class="mt-5 md:mt-10 flex flex-row space-x-5 md:space-x-0 overflow-x-scroll scrollbar-hide md:grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 md:gap-6 px-4 md:px-12 lg:px-4"
         >
           <Teacher
             v-for="teacher in teachers"

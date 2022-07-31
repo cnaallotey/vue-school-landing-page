@@ -19,7 +19,7 @@ const menu = ref([
 
 <template>
   <div
-    class="w-full bg-gradient-to-br from-[#2d3765] to-[#1e264a] py-4 md:py-24 md:pb-[59px] px-4"
+    class="w-full bg-gradient-to-br from-[#2d3765] to-[#1e264a] py-4 md:py-16 lg:py-24 md:pb-[59px] px-4"
   >
     <div class="max-w-screen-xl mx-auto">
       <div class="hidden md:grid grid-cols-4">
@@ -42,12 +42,17 @@ const menu = ref([
             <li>info@vueschool.com</li>
             <li>
               <div class="flex items-center space-x-7">
-                <img src="../assets/images/facebook-grey-16-copy-24.svg" alt="facebook" />
-                <img
-                  src="../assets/images/instagram-grey-16-copy-24.svg"
-                  alt="instagram"
-                />
-                <img src="../assets/images/twitter-grey-16-copy-24.svg" alt="twitter" />
+                <a href="#">
+                  <img src="../assets/images/facebook-grey-16-copy-24.svg" alt="facebook"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="../assets/images/instagram-grey-16-copy-24.svg"
+                    alt="instagram"
+                /></a>
+                <a href="#"
+                  ><img src="../assets/images/twitter-grey-16-copy-24.svg" alt="twitter"
+                /></a>
               </div>
             </li>
           </ul>

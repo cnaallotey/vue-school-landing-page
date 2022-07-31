@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full mt-24 font-sans">
+  <div class="w-full mt-10 md:mt-20 font-sans">
     <div class="w-full bg-primary-500 px-4 py-[34px] lg:pb-16">
       <div class="max-w-screen-lg mx-auto relative">
         <div class="w-fit absolute top-1/3 left-0 hidden md:block">
@@ -11,7 +11,7 @@
           </div>
           <img src="../assets/images/arrow.webp" class="w-24 mx-auto mt-4" alt="" />
         </div>
-        <div class="w-fit absolute bottom-32 right-10 hidden md:block">
+        <div class="w-fit absolute bottom-32 md:right-5 lg:right-10 hidden md:block">
           <img
             src="../assets/images/arrow.webp"
             class="w-24 mx-0 mb-4 rotate-180 -ml-8"

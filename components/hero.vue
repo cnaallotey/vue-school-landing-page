@@ -8,13 +8,13 @@
         Black Friday sale
       </h1>
       <h1
-        class="font-heading text-[56px] md:text-[79px] lg:text-[109px] tracking-tight text-center -mt-5 lg:-mt-10 text-white font-normal uppercase"
+        class="font-heading text-[44px] md:text-[79px] lg:text-[109px] tracking-tight text-center -mt-5 md:-mt-10 lg:-mt-12 text-white font-normal uppercase"
       >
         40% Off. 48 Hours Only
       </h1>
       <Countdown />
     </div>
-    <div class="w-full bg-primary-600 py-12 flex items-center justify-center">
+    <div class="w-full bg-primary-600 py-8 md:py-12 flex items-center justify-center">
       <button
         class="py-5 px-9 rounded-full text-white bg-button font-sans font-medium tracking-[0.37px] text-base uppercase"
       >

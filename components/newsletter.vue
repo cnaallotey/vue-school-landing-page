@@ -1,6 +1,6 @@
 <template>
   <div class="w-full font-sans">
-    <div class="w-full bg-[#4152b3] py-[72px] px-4">
+    <div class="w-full bg-[#4152b3] py-10 md:py-20 px-4">
       <div class="max-w-2xl mx-auto flex flex-col items-center">
         <p
           class="text-white font-circular text-3xl md:text-[40px] lg:text-5xl leading-10 text-center font-normal"

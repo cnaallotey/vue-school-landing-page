@@ -10,12 +10,13 @@
 @tailwind utilities;
 
 
+/* importing local fonts */
 @font-face {
     font-family: 'CircularStd';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url('~assets/CircularStd-Book.ttf') format('truetype');
+    src: url('~assets/fonts/CircularStd-Book.ttf') format('truetype');
   }
 
   @font-face {
@@ -23,7 +24,7 @@
     font-style: medium;
     font-weight: 600;
     font-display: swap;
-    src: url('~assets/CircularStd-Medium.ttf') format('truetype');
+    src: url('~assets/fonts/CircularStd-Medium.ttf') format('truetype');
   }
 
   @font-face {
@@ -31,7 +32,7 @@
     font-style: Bold;
     font-weight: 800;
     font-display: swap;
-    src: url('~assets/CircularStd-Bold.ttf') format('truetype');
+    src: url('~assets/fonts/CircularStd-Bold.ttf') format('truetype');
   }
 
   @font-face {
@@ -39,5 +40,5 @@
     font-style: Bold;
     font-weight: 800;
     font-display: swap;
-    src: url('~assets/MarkerFelt-Bold.ttf') format('truetype');
+    src: url('~assets/fonts/MarkerFelt-Bold.ttf') format('truetype');
   }

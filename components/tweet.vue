@@ -1,12 +1,14 @@
 <template>
   <div class="relative overflow-hidden">
     <div
-      class="w-full py-20 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0] relative pb-40 md:pb-20"
+      class="w-full py-10 md:py-20 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0] relative pb-40 md:pb-20"
     >
       <div
         class="w-fit mx-auto flex flex-col md:flex-row items-center md:space-x-5 space-y-5 md:space-y-0 relative z-10"
       >
-        <p class="font-circular text-white text-5xl leading-10 font-normal">
+        <p
+          class="font-circular text-white text-3xl md:text-[40px] lg:text-5xl leading-10 font-normal"
+        >
           Share the love!
         </p>
         <button
