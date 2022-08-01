@@ -1,6 +1,6 @@
 # vue-school-landing-page
 
-> A landing page for vue school black friday sale using nuxt.js / vue.js
+> A landing page for vue school black friday sale using nuxt.js / vue.js and Tailwind CSS
 
 ## Build Setup
 
