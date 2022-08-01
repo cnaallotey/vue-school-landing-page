@@ -19,7 +19,7 @@ const menu = ref([
 
 <template>
   <footer
-    class="w-full bg-gradient-to-br from-[#2d3765] to-[#1e264a] py-4 md:py-16 lg:py-24 md:pb-[59px] px-4"
+    class="w-full bg-gradient-to-br from-[#2d3765] to-[#1e264a] py-4 md:py-16 lg:py-24 md:pb-[59px] px-4 md:px-9 lg:px-4"
   >
     <div class="max-w-screen-xl mx-auto">
       <div class="hidden md:grid grid-cols-4">
@@ -74,9 +74,9 @@ const menu = ref([
           <ul
             class="inline-flex text-xs font-sans text-footerText font-normal space-x-2 leading-5"
           >
-            <li><a href="#">Privacy Policy</a></li>
+            <li class="hover:text-white"><a href="#">Privacy Policy</a></li>
             <li>.</li>
-            <li><a href="#">Terms & Conditions</a></li>
+            <li class="hover:text-white"><a href="#">Terms & Conditions</a></li>
           </ul>
         </div>
       </div>
