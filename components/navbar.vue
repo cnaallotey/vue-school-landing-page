@@ -30,7 +30,7 @@
             </svg>
           </button>
           <div
-            class="absolute bg-slate-800 right-0 w-56 bg-primary-600 py-1 mt-2 top-19 rounded-md shadow-lg focus:outline-none"
+            class="absolute right-0 w-56 bg-primary-600 py-1 mt-2 top-19 rounded-md shadow-lg focus:outline-none"
             v-if="menuOpen"
           >
             <div>
