@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <div class="w-full py-10 md:py-16 lg:py-32">
       <div class="max-w-screen-md mx-auto px-4">
         <p
@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

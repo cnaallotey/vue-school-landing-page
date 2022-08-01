@@ -1,13 +1,13 @@
 <template>
   <section>
-    <div class="w-full bg-primary-300 py-10 md:pb-32 px-4">
+    <div class="w-full bg-primary-300 py-10 md:pb-32">
       <div class="text-center">
-        <p class="text-[#b7b9c9] font-normal text-base font-circular lg:text-xl">
+        <p class="text-[#b7b9c9] font-normal text-base font-circular px-4 lg:text-xl">
           Developers from major organisations learn Vue.js with us
         </p>
       </div>
       <div
-        class="flex mt-5 flex-wrap items-center justify-center xl:justify-between max-w-screen-2xl mx-auto"
+        class="flex mt-5 flex-wrap items-center justify-center xl:justify-between max-w-screen-2xl mx-auto md:px-4"
       >
         <img
           v-for="logo in logos"

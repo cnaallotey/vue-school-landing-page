@@ -19,7 +19,7 @@ const props = defineProps({
           :src="
             !props.img
               ? 'https://vueschool.io/img/teachers/vueschool_vuejs_chris_fritz.jpg'
-              : props.img
+              : require(`~/assets/images/teachers/${props.img}`)
           "
           class="w-full h-full object-cover object-top"
           :alt="props.name"

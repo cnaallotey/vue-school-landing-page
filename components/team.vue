@@ -1,5 +1,5 @@
 <template>
-  <div
+  <section
     class="w-full bg-cornflower-blue-500 font-sans relative overflow-hidden pb-44 md:pb-0"
   >
     <div
@@ -42,5 +42,5 @@
       class="absolute bottom-0 right-0 -mt-32 md:mt-10 w-[600px] md:w-[600px] lg:w-[800px] h-auto translate-y-1/3 lg:translate-y-1/4 z-0 md:translate-x-32"
       alt=""
     />
-  </div>
+  </section>
 </template>

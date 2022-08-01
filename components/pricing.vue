@@ -27,7 +27,7 @@
 
         <div class="w-fit mx-auto">
           <h2
-            class="font-circular font-medium text-2xl lg:text-4xl text-white pb-2 border-b-2 border-secondary-500"
+            class="font-circular font-medium text-2xl md:text-[40px] lg:text-4xl text-white pb-2 border-b-2 border-secondary-500"
           >
             40% Off - Limited Time Offer
           </h2>

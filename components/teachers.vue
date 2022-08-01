@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <div class="w-full py-10 md:py-20 bg-[#f9fafe] font-sans">
       <div class="max-w-screen-xl mx-auto">
         <p
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
@@ -31,42 +31,42 @@ const teachers = ref([
   {
     name: "Alex Kyriakidis",
     role: "Co-founder, Software Engineer",
-    img: "https://vueschool.io/img/teachers/vueschool_vuejs_alex_kyriakidis.jpg",
+    img: "Alex.jpg",
   },
   {
     name: "Rolf Haug",
     role: "Co-founder, Software Engineer",
-    img: "https://avatars.githubusercontent.com/u/306927?v=4",
+    img: "Rolf.jpeg",
   },
   {
     name: "Chris Fritz",
     role: "Co-founder, Software Engineer",
-    img: "https://vueschool.io/img/teachers/vueschool_vuejs_chris_fritz.jpg",
+    img: "Chris.jpg",
   },
   {
     name: "Alexandre Chopin",
     role: "Teacher, Software Engineer",
-    img: "https://miro.medium.com/fit/c/176/176/1*U1PmLpfVIC_62mUKIVMNRQ.jpeg",
+    img: "Alexandre.jpeg",
   },
   {
     name: "Roman Cuba",
     role: "Teacher, Software Engineer",
-    img: "https://vueschool.io/img/teachers/vueschool_vuejs_roman_kuba.jpg",
+    img: "Roman.jpg",
   },
   {
     name: "Sebastien Chopin",
     role: "Teacher, Software Engineer",
-    img: "https://pbs.twimg.com/profile_images/1042510623962275840/1Iw_Mvud_400x400.jpg",
+    img: "Sebastien.jpg",
   },
   {
     name: "Alexander Lichter",
     role: "Teacher, Software Engineer",
-    img: "https://www.lichter.io/assets/icons/icon_512x512.928fac.png",
+    img: "Alexander.png",
   },
   {
     name: "Lydia Hallie",
     role: "Teacher, Software Engineer",
-    img: "https://vueschool.io/img/teachers/vueschool_vuejs_lydia_hallie.jpg",
+    img: "Lydia.jpg",
   },
 ]);
 </script>

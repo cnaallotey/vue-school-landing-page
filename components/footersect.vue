@@ -18,13 +18,15 @@ const menu = ref([
 </script>
 
 <template>
-  <div
+  <footer
     class="w-full bg-gradient-to-br from-[#2d3765] to-[#1e264a] py-4 md:py-16 lg:py-24 md:pb-[59px] px-4"
   >
     <div class="max-w-screen-xl mx-auto">
       <div class="hidden md:grid grid-cols-4">
         <div class="w-full" v-for="menusection in menu" :key="menusection.title">
-          <p class="uppercase font-sans font-medium text-xs text-footerText leading-5">
+          <p
+            class="uppercase font-sans font-medium text-xs text-footerText leading-5 cursor-default"
+          >
             {{ menusection.title }}
           </p>
           <ul class="space-y-5 mt-6 text-white text-sm font-sans font-normal leading-6">
@@ -79,5 +81,5 @@ const menu = ref([
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full font-sans relative">
+  <section class="w-full font-sans relative overflow-hidden">
     <div class="w-full bg-[#4152b3] py-12 md:py-20 px-4">
       <div class="max-w-2xl mx-auto flex flex-col items-center relative z-10">
         <p
@@ -59,5 +59,5 @@
       class="absolute top-0 w-36 h-auto right-0 lg:right-28 rotate-180 -mr-12"
       alt=""
     />
-  </div>
+  </section>
 </template>

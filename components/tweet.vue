@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden">
+  <section class="relative overflow-hidden">
     <div
       class="w-full py-10 md:py-20 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0] relative pb-40 md:pb-20"
     >
@@ -47,5 +47,5 @@
         alt=""
       />
     </div>
-  </div>
+  </section>
 </template>

@@ -12,8 +12,8 @@
             <li><a href="#">sign up</a></li>
           </ul>
         </div>
-        <div class="md:hidden">
-          <button class="text-white">
+        <div class="md:hidden relative">
+          <button class="text-white" @click="menuOpen = !menuOpen">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -29,6 +29,30 @@
               />
             </svg>
           </button>
+          <div
+            class="absolute bg-slate-800 right-0 w-56 bg-primary-600 py-1 mt-2 top-19 rounded-md shadow-lg focus:outline-none"
+            v-if="menuOpen"
+          >
+            <div>
+              <div class="px-2 pt-2 pb-3 space-y-1 uppercase">
+                <a
+                  href="#"
+                  class="text-white font-sans hover:bg-primary-700 hover:text-secondary-500 block px-3 py-2 rounded-md text-sm font-medium"
+                  >Contact us</a
+                >
+                <a
+                  href="#"
+                  class="text-white font-sans hover:bg-primary-700 hover:text-secondary-500 block px-3 py-2 rounded-md text-sm font-medium"
+                  >Sign in</a
+                >
+                <a
+                  href="#"
+                  class="text-white font-sans hover:bg-primary-700 hover:text-secondary-500 block px-3 py-2 rounded-md text-sm font-medium"
+                  >sign up</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -36,5 +60,8 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 import Logo from "./Logo.vue";
+
+const menuOpen = ref(false);
 </script>

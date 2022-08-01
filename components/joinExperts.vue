@@ -1,13 +1,15 @@
 <template>
-  <div class="w-full py-[45px] bg-[#1f264a] px-4">
+  <div class="w-full py-[45px] bg-[#1f264a]">
     <div class="w-full">
       <div class="text-center">
-        <p class="font-circular text-white font-normal text-center text-base lg:text-xl">
+        <p
+          class="font-circular text-white font-normal text-center text-base lg:text-xl px-4"
+        >
           Join other experts in learning
         </p>
       </div>
       <div
-        class="flex mt-5 flex-wrap items-center justify-center xl:justify-between max-w-screen-2xl mx-auto saturate-10"
+        class="flex mt-5 flex-wrap items-center justify-center xl:justify-between max-w-screen-2xl mx-auto saturate-10 md:px-4"
       >
         <img
           v-for="logo in logos"

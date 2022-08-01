@@ -7,7 +7,7 @@
             <div class="w-full h-1/2 bg-secondary-600"></div>
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
-          <div class="w-full absolute inset-1 h-full flex items-center justify-center">
+          <div class="w-full absolute inset-0 h-full flex items-center justify-center">
             <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
               <!-- check if countdown has exceeded 0 -->
               <span v-if="countdown.days > 0"
@@ -19,14 +19,19 @@
         </div>
         <p class="text-xs font-sans font-normal text-white mt-1">Days</p>
       </div>
-      <p class="text-secondary-500 font-sans text-3xl lg:text-5xl font-normal -mt-6">:</p>
+      <p
+        class="text-secondary-500 font-sans text-3xl lg:text-5xl font-normal -mt-6"
+        :class="blink && countdown.seconds < 0 ? 'invisible' : 'visible'"
+      >
+        :
+      </p>
       <div class="flex flex-col items-center">
         <div class="w-16 h-16 lg:w-24 lg:h-24 relative">
           <div class="flex flex-col space-y-0.5 w-full h-full rounded-md overflow-hidden">
             <div class="w-full h-1/2 bg-secondary-600"></div>
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
-          <div class="w-full absolute inset-1 h-full flex items-center justify-center">
+          <div class="w-full absolute inset-0 h-full flex items-center justify-center">
             <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
               <!-- check if countdown has exceeded 0 -->
               <span v-if="countdown.hours > 0"
@@ -38,14 +43,19 @@
         </div>
         <p class="text-xs font-sans font-normal text-white mt-1">Hours</p>
       </div>
-      <p class="text-secondary-500 font-sans text-3xl lg:text-5xl font-normal -mt-6">:</p>
+      <p
+        class="text-secondary-500 font-sans text-3xl lg:text-5xl font-normal -mt-6"
+        :class="blink && countdown.seconds < 0 ? 'invisible' : 'visible'"
+      >
+        :
+      </p>
       <div class="flex flex-col items-center">
         <div class="w-16 h-16 lg:w-24 lg:h-24 relative">
           <div class="flex flex-col space-y-0.5 w-full h-full rounded-md overflow-hidden">
             <div class="w-full h-1/2 bg-secondary-600"></div>
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
-          <div class="w-full absolute inset-1 h-full flex items-center justify-center">
+          <div class="w-full absolute inset-0 h-full flex items-center justify-center">
             <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
               <!-- check if countdown has exceeded 0 -->
               <span v-if="countdown.minutes > 0"
@@ -57,14 +67,19 @@
         </div>
         <p class="text-xs font-sans font-normal text-white mt-1">Minutes</p>
       </div>
-      <p class="text-secondary-500 font-sans text-3xl lg:text-5xl font-normal -mt-6">:</p>
+      <p
+        class="text-secondary-500 font-sans text-3xl lg:text-5xl font-normal -mt-6"
+        :class="blink && countdown.seconds < 0 ? 'invisible' : 'visible'"
+      >
+        :
+      </p>
       <div class="flex flex-col items-center">
         <div class="w-16 h-16 lg:w-24 lg:h-24 relative">
           <div class="flex flex-col space-y-0.5 w-full h-full rounded-md overflow-hidden">
             <div class="w-full h-1/2 bg-secondary-600"></div>
             <div class="w-full h-1/2 bg-secondary-900"></div>
           </div>
-          <div class="w-full absolute inset-1 h-full flex items-center justify-center">
+          <div class="w-full absolute inset-0 h-full flex items-center justify-center">
             <p class="text-4xl lg:text-6xl font-sans font-medium text-primary-500">
               <!-- check if countdown has exceeded 0 -->
               <span v-if="countdown.seconds > 0"
@@ -88,8 +103,17 @@ const countdown = reactive({ days: "", hours: "", minutes: "", seconds: "" });
 
 var interval = 1000;
 
-//getting current date and time and finding the difference to specified data and time
+//blinking animation when specified time elapses
+const blink = ref(false);
+
+const blinking = () => {
+  setInterval(() => {
+    blink.value = !blink.value;
+  }, interval / 2);
+};
+
 onMounted(() => {
+  //getting current date and time and finding the difference to specified data and time
   setInterval(function () {
     const x = new moment();
     const y = new moment("2022-08-01T00:00:00+02:00");
@@ -98,5 +122,6 @@ onMounted(() => {
     countdown.minutes = moment.duration(y.diff(x)).minutes();
     countdown.seconds = moment.duration(y.diff(x)).seconds();
   }, interval);
+  blinking();
 });
 </script>
