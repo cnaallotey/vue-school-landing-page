@@ -50,7 +50,7 @@ onMounted(() => {
   //getting current date and time and finding the difference to specified data and time
   setInterval(function () {
     const x = new moment();
-    const y = new moment("2022-09-01T00:00:00+02:00");
+    const y = new moment("2022-08-01T00:00:00+02:00");
     countdown.days = moment.duration(y.diff(x)).days();
     countdown.hours = moment.duration(y.diff(x)).hours();
     countdown.minutes = moment.duration(y.diff(x)).minutes();
