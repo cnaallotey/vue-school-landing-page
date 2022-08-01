@@ -52,6 +52,7 @@ module.exports = {
       'button': "#667dff",
       'footerText': "#959bbc",
       'slate':colors.slate,
+      'twitter-blue': '#1da1f2',
       'cornflower-blue': {
         DEFAULT: '#667DFF',
         '50': '#FFFFFF',

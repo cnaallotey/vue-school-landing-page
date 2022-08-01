@@ -1,7 +1,7 @@
 <template>
   <section class="relative overflow-hidden">
     <div
-      class="w-full py-10 md:py-20 bg-gradient-to-b from-[#1da1f2] to-[#1b96e0] relative pb-40 md:pb-20"
+      class="w-full py-10 md:py-20 bg-gradient-to-b from-twitter-blue to-[#1b96e0] relative pb-40 md:pb-20"
     >
       <div
         class="w-fit mx-auto flex flex-col md:flex-row items-center md:space-x-5 space-y-5 md:space-y-0 relative z-10"
@@ -12,7 +12,7 @@
           Share the love!
         </p>
         <button
-          class="p-2 rounded-full text-[#1da1f2] bg-slate-900 hover:text-white uppercase inline-flex font-sans items-center pl-8 space-x-5"
+          class="p-2 rounded-full text-twitter-blue bg-slate-900 hover:text-white uppercase inline-flex font-sans items-center pl-8 space-x-5"
         >
           <span class="font-medium">tweet</span>
           <span

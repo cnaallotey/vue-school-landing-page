@@ -27,7 +27,7 @@
               required
             />
             <button
-              class="absolute top-1 right-1 inline-flex items-center space-x-2 py-4 px-3 md:px-4 lg:px-8 rounded-full bg-slate-900 font-medium text-xs font-sans text-[#1da1f2] hover:text-white uppercase tracking-[0.37px]"
+              class="absolute top-1 right-1 inline-flex items-center space-x-2 py-4 px-3 md:px-4 lg:px-8 rounded-full bg-slate-900 font-medium text-xs font-sans text-twitter-blue hover:text-white uppercase tracking-[0.37px]"
             >
               <span>keep me posted</span>
               <span
