@@ -51,6 +51,7 @@ module.exports = {
       'secondary-text':"#646b95",
       'button': "#667dff",
       'footerText': "#959bbc",
+      'slate':colors.slate,
       'cornflower-blue': {
         DEFAULT: '#667DFF',
         '50': '#FFFFFF',

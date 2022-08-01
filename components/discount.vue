@@ -21,7 +21,7 @@
         </div>
 
         <button
-          class="px-6 py-4 text-cornflower-blue-500 bg-white rounded-full uppercase inline-flex items-center mt-10 lg:mt-16 font-medium text-sm leading-5 space-x-2"
+          class="px-6 py-4 text-cornflower-blue-500 bg-white hover:bg-cornflower-blue-600 hover:text-white rounded-full uppercase inline-flex items-center mt-10 lg:mt-16 font-medium text-sm leading-5 space-x-2"
         >
           <span>Secure your discount</span>
           <svg

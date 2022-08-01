@@ -19,7 +19,7 @@
         </p>
       </div>
       <button
-        class="px-6 py-4 text-cornflower-blue-500 w-fit mx-auto md:mx-0 bg-white rounded-full uppercase inline-flex items-center mt-12 lg:mt-16 font-medium text-sm leading-5 space-x-2"
+        class="px-6 py-4 text-cornflower-blue-500 hover:bg-cornflower-blue-600 hover:text-white w-fit mx-auto md:mx-0 bg-white rounded-full uppercase inline-flex items-center mt-12 lg:mt-16 font-medium text-sm leading-5 space-x-2"
       >
         <span>Vue school for teams</span>
         <svg

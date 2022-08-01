@@ -22,12 +22,12 @@
             <input
               type="search"
               id="default-search"
-              class="block p-[17px] pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-full border border-gray-300 focus:ring-cornflower-blue-500 focus:border-cornflower-blue-500"
+              class="block p-[17px] pl-10 w-full text-sm text-primary-text bg-gray-50 rounded-full border border-gray-300 focus:ring-cornflower-blue-500 focus:border-cornflower-blue-500"
               placeholder="Your Email"
               required
             />
             <button
-              class="absolute top-1 right-1 inline-flex items-center space-x-2 py-4 px-3 md:px-4 lg:px-8 rounded-full bg-cornflower-blue-900 font-medium text-xs font-sans text-[#4bbbff] uppercase tracking-[0.37px]"
+              class="absolute top-1 right-1 inline-flex items-center space-x-2 py-4 px-3 md:px-4 lg:px-8 rounded-full bg-slate-900 font-medium text-xs font-sans text-[#1da1f2] hover:text-white uppercase tracking-[0.37px]"
             >
               <span>keep me posted</span>
               <span

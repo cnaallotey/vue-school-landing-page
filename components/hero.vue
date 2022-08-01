@@ -16,7 +16,7 @@
     </div>
     <div class="w-full bg-primary-600 py-8 md:py-12 flex items-center justify-center">
       <button
-        class="py-5 px-9 rounded-full text-white bg-button font-sans font-medium tracking-[0.37px] text-base uppercase"
+        class="py-5 px-9 rounded-full text-white bg-cornflower-blue-500 hover:bg-cornflower-blue-600 font-sans font-medium tracking-[0.37px] text-base uppercase"
       >
         See new plans
       </button>

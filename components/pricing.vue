@@ -15,7 +15,7 @@
           <img
             src="../assets/images/arrow.webp"
             class="w-24 mx-0 mb-4 rotate-180 -ml-8"
-            alt=""
+            alt="arrow"
           />
           <div
             class="text-white font-marker text-sm font-bold text-center -rotate-12 uppercase"
@@ -37,7 +37,7 @@
             class="w-full p-[6px] flex rounded-full bg-primary-700 bg-opacity-100 text-[13px]"
           >
             <button
-              class="py-3 px-2 md:px-8 rounded-full bg-heliotrope-500 font-medium font-sans text-white uppercase tracking-[0.37px]"
+              class="py-3 px-2 md:px-8 rounded-full bg-heliotrope-500 hover:bg-heliotrope-600 font-medium font-sans text-white uppercase tracking-[0.37px]"
             >
               yearly plan
             </button>

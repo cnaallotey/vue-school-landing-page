@@ -12,14 +12,14 @@
           Share the love!
         </p>
         <button
-          class="p-2 rounded-full text-[#1da1f2] bg-gray-800 uppercase inline-flex font-sans items-center pl-8 space-x-5"
+          class="p-2 rounded-full text-[#1da1f2] bg-slate-900 hover:text-white uppercase inline-flex font-sans items-center pl-8 space-x-5"
         >
           <span class="font-medium">tweet</span>
           <span
-            class="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center"
+            class="w-10 h-10 bg-slate-600 rounded-full flex items-center justify-center"
           >
             <svg
-              class="h-6 w-6 bg-gray-600 rounded-full"
+              class="h-6 w-6 rounded-full"
               viewBox="0 0 24 24"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"

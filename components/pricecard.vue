@@ -46,10 +46,10 @@
       </div>
       <div class="w-full flex justify-center mt-5">
         <button
-          class="p-2 rounded-full text-white bg-cornflower-blue-500 uppercase inline-flex items-center pl-5 space-x-2"
+          class="p-2 rounded-full text-white bg-cornflower-blue-500 hover:bg-cornflower-blue-600 uppercase inline-flex items-center pl-5 space-x-2"
         >
           <span class="font-medium">get this offer!</span>
-          <span class="w-10 h-10 bg-cornflower-blue-400 rounded-full"
+          <span class="w-10 h-10 rounded-full"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-10 w-19 p-2 bg-cornflower-blue-400 rounded-full"

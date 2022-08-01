@@ -7,9 +7,9 @@
           <ul
             class="inline-flex space-x-10 text-white font-sans font-medium uppercase text-xs tracking-tight"
           >
-            <li><a href="#">contact us</a></li>
-            <li><a href="#">sign in</a></li>
-            <li><a href="#">sign up</a></li>
+            <li class="hover:text-secondary-500"><a href="#">contact us</a></li>
+            <li class="hover:text-secondary-500"><a href="#">sign in</a></li>
+            <li class="hover:text-secondary-500"><a href="#">sign up</a></li>
           </ul>
         </div>
         <div class="md:hidden relative">
