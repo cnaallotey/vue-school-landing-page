@@ -26,8 +26,8 @@ const props = defineProps({
         />
       </div>
       <div class="w-full p-6">
-        <p class="text-xl font-medium leading-6">{{ props.name }}</p>
-        <p class="text-sm font-normal leading-6 mt-1 text-gray-500">
+        <p class="text-xl font-medium leading-6 text-primary-text">{{ props.name }}</p>
+        <p class="text-sm font-normal leading-6 mt-1 text-secondary-text">
           {{ props.role }}
         </p>
       </div>

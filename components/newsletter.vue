@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full font-sans">
-    <div class="w-full bg-[#4152b3] py-10 md:py-20 px-4">
-      <div class="max-w-2xl mx-auto flex flex-col items-center">
+  <div class="w-full font-sans relative">
+    <div class="w-full bg-[#4152b3] py-12 md:py-20 px-4">
+      <div class="max-w-2xl mx-auto flex flex-col items-center relative z-10">
         <p
           class="text-white font-circular text-3xl md:text-[40px] lg:text-5xl leading-10 text-center font-normal"
         >
@@ -49,5 +49,15 @@
         </form>
       </div>
     </div>
+    <img
+      src="../assets/images/plant.svg"
+      class="absolute bottom-0 w-36 h-auto left-0 lg:left-28 -ml-12"
+      alt=""
+    />
+    <img
+      src="../assets/images/plant2.svg"
+      class="absolute top-0 w-36 h-auto right-0 lg:right-28 rotate-180 -mr-12"
+      alt=""
+    />
   </div>
 </template>

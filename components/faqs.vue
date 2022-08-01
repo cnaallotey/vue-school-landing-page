@@ -3,7 +3,7 @@
     <div class="w-full py-10 md:py-16 lg:py-32">
       <div class="max-w-screen-md mx-auto px-4">
         <p
-          class="text-gray-900 text-3xl md:text-4xl lg:text-5xl font-circular text-center leading-10 font-medium"
+          class="text-primary-text text-3xl md:text-4xl lg:text-5xl font-circular text-center leading-10 font-medium"
         >
           Do you have any questions?
         </p>
@@ -15,7 +15,7 @@
             :class="faqs.indexOf(faq) + 1 == faqs.length ? 'border-b-0' : 'border-b'"
           >
             <button
-              class="w-full py-3 inline-flex justify-between text-gray-700 text-base md:text-xl font-medium leading-6 font-sans"
+              class="w-full py-3 inline-flex justify-between text-primary-text text-base md:text-xl font-medium leading-6 font-sans"
               @click="showAns(faq)"
               :disabled="!faq.ans ? true : false"
             >
@@ -48,7 +48,7 @@
               ></span>
             </button>
             <p
-              class="mt-6 md:mt-8 text-xs md:text-sm max-w-sm md:max-w-full font-normal leading-6 md:leading-7 text-gray-700 font-sans"
+              class="mt-6 md:mt-8 text-xs md:text-sm max-w-sm md:max-w-full font-normal leading-6 md:leading-7 text-secondary-text font-sans"
               v-if="faq.open"
             >
               {{ faq.ans }}

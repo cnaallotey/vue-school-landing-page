@@ -27,7 +27,7 @@
             />
           </svg>
           <p
-            class="text-gray-900 font-normal leading-5 md:leading-6 lg:leading-9 text-xs md:text-base lg:text-lg font-sans mt-5"
+            class="text-primary-text font-normal leading-5 md:leading-6 lg:leading-9 text-xs md:text-base lg:text-lg font-sans mt-5"
           >
             Even if you've read through every word of the Vue docs, there's no substitute
             for real experience building an app, making decisions, weighing pros and cons,
@@ -35,7 +35,7 @@
             start, helping you avoid some of the most common mistakes!
           </p>
           <div class="w-full flex justify-end mt-3">
-            <p class="text-sm font-sans text-gray-800 font-normal leading-7">
+            <p class="text-sm font-sans text-primary-text font-normal leading-7">
               - <span class="font-medium">Chris Fritz. </span>Author of Vue.js Docs
             </p>
           </div>

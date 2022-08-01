@@ -27,10 +27,12 @@
         >
           <img :src="require(`~/assets/images/${stat.icon}`)" :alt="stat.caption" />
 
-          <p class="text-5xl font-sans text-center text-gray-900 mt-10">
+          <p class="text-5xl font-sans text-center text-primary-text mt-10">
             {{ stat.figure }}
           </p>
-          <p class="text-lg font-sans text-center text-gray-900">{{ stat.caption }}</p>
+          <p class="text-lg font-sans text-center text-primary-text">
+            {{ stat.caption }}
+          </p>
         </div>
       </div>
     </div>

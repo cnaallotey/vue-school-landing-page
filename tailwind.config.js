@@ -47,6 +47,8 @@ module.exports = {
       'blue':colors.blue,
       'red' : colors.red,
       'gray':colors.gray,
+      'primary-text':"#38416f",
+      'secondary-text':"#646b95",
       'button': "#667dff",
       'footerText': "#959bbc",
       'cornflower-blue': {

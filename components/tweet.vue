@@ -32,6 +32,15 @@
           </span>
         </button>
       </div>
+
+      <div class="absolute h-full w-72 rounded-br-full top-0 left-0 bg-[#22a6f6]"></div>
+      <div class="absolute h-full w-52 rounded-br-full top-0 left-0 bg-[#1c9eee]"></div>
+      <div
+        class="absolute h-full w-72 rounded-tl-full top-0 right-0 hidden lg:block bg-[#22a6f6]"
+      ></div>
+      <div
+        class="absolute h-full w-52 rounded-tl-full top-0 right-0 hidden lg:block bg-[#1c9eee]"
+      ></div>
       <img
         src="../assets/images/lovetwitter.webp"
         class="absolute bottom-0 right-0 md:right-20 w-[320px] translate-y-20"
