@@ -5,7 +5,7 @@
         <Logo />
         <div class="hidden md:flex">
           <ul
-            class="inline-flex space-x-10 text-white font-sans font-medium uppercase text-xs tracking-tight"
+            class="inline-flex space-x-10 text-white font-sans font-medium uppercase text-xs tracking-wide"
           >
             <li class="hover:text-secondary-500"><a href="#">contact us</a></li>
             <li class="hover:text-secondary-500"><a href="#">sign in</a></li>
