@@ -1,7 +1,7 @@
 <template>
   <section>
-    <div class="w-full py-10 md:py-20 bg-[#f9fafe] font-sans">
-      <div class="max-w-screen-xl mx-auto">
+    <div class="w-full py-10 md:py-20 bg-[#f9fafe] font-sans relative z-0">
+      <div class="max-w-screen-xl mx-auto relative z-10">
         <p
           class="text-primary-text text-3xl lg:text-5xl font-circular font-medium text-center leading-10"
         >
@@ -19,6 +19,11 @@
           />
         </div>
       </div>
+      <img
+        src="../assets/images/shinyrectange.svg"
+        class="absolute left-0 bottom-20 z-0 rotate-180 hidden lg:block opacity-50"
+        alt="rectangle"
+      />
     </div>
   </section>
 </template>

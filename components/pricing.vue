@@ -9,7 +9,11 @@
             <p>100%</p>
             <p class="text-sm">money back guarantee</p>
           </div>
-          <img src="../assets/images/arrow.webp" class="w-24 mx-auto mt-4" alt="" />
+          <img
+            src="../assets/images/arrow.webp"
+            class="w-24 mx-auto mt-4 lg:mt-6"
+            alt=""
+          />
         </div>
         <div class="w-fit absolute bottom-32 md:right-5 lg:right-10 hidden md:block">
           <img

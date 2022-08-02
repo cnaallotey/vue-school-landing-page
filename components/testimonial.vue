@@ -1,6 +1,8 @@
 <template>
-  <section class="w-full">
-    <div class="max-w-screen-xl mx-auto py-10 md:py-20 px-4 md:px-8 lg:px-4">
+  <section class="w-full relative overflow-visible">
+    <div
+      class="max-w-screen-xl mx-auto py-10 md:py-20 px-4 md:px-8 lg:px-4 relative z-20"
+    >
       <div
         class="w-full flex flex-col md:flex-row md:space-x-16 lg:space-x-32 space-y-10 md:space-y-2"
       >
@@ -42,5 +44,10 @@
         </div>
       </div>
     </div>
+    <img
+      src="../assets/images/shinyrectange.svg"
+      class="absolute right-0 top-20 z-10 hidden lg:block opacity-50"
+      alt="rectangle"
+    />
   </section>
 </template>

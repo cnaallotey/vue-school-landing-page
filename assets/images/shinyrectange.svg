@@ -1,0 +1,15 @@
+<svg width="250" height="573" viewBox="0 0 250 573" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="21.233%" y1="24.375%" x2="75.985%" y2="43.826%" id="ccdglhz1sa">
+            <stop stop-color="#00B6FF" offset="0%"/>
+            <stop stop-color="#20FFE3" offset="21.181%"/>
+            <stop stop-color="#FF30F4" offset="57.178%"/>
+            <stop stop-color="#FFED00" offset="75.908%"/>
+            <stop stop-color="#007EFF" offset="100%"/>
+        </linearGradient>
+        <filter x="-33.7%" y="-29%" width="167.5%" height="158.1%" filterUnits="objectBoundingBox" id="1rwmb1biab">
+            <feGaussianBlur stdDeviation="50 0" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <path d="M370.5 139.282c135.034 0 244.5 109.466 244.5 244.5v79c0 135.033-109.466 244.5-244.5 244.5S126 597.815 126 462.782v-79c0-135.034 109.466-244.5 244.5-244.5z" filter="url(#1rwmb1biab)" transform="rotate(40 592.323 434.332)" stroke="url(#ccdglhz1sa)" stroke-width="30" fill="none" fill-rule="evenodd"/>
+</svg>
