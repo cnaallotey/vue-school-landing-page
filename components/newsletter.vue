@@ -20,8 +20,8 @@
           >
           <div class="relative">
             <input
-              type="search"
-              id="default-search"
+              type="email"
+              id="newsletter-email"
               class="block p-[17px] pl-10 w-full text-sm text-primary-text bg-gray-50 rounded-full border border-gray-300 focus:ring-cornflower-blue-500 focus:border-cornflower-blue-500"
               placeholder="Your Email"
               required
