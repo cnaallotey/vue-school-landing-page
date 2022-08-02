@@ -33,7 +33,7 @@ import { onMounted, reactive, ref } from "vue";
 import moment from "moment";
 import Timer from "./timer.vue";
 
-const countdown = reactive({ days: "", hours: "", minutes: "", seconds: "" });
+const countdown = reactive({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
 var interval = 1000;
 
